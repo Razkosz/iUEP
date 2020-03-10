@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">iUEP</string>
+    <string name="logoutButton">Logout</string>
+    <string name="loginButton">Login</string>
+    <string name="loginSignupButton">Sign Up</string>
+    <string name="loginEmail">email</string>
+    <string name="loginPassword">password</string>
+    <string name="signupName">name</string>
+    <string name="signupEmail">email</string>
+    <string name="signupPassword">password</string>
+    <string name="signupAge">age</string>
+    <string name="signupSignupButton">Sign Up</string>
+</resources>
