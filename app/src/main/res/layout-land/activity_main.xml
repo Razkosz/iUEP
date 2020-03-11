@@ -21,16 +21,16 @@
         android:paddingTop="30dp"
         android:text="@string/floors"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/divider7"
-        app:layout_constraintEnd_toStartOf="@+id/divider12"
-        app:layout_constraintStart_toEndOf="@+id/divider10"
-        app:layout_constraintTop_toBottomOf="@+id/divider6" />
+        app:layout_constraintBottom_toTopOf="@+id/divider3"
+        app:layout_constraintEnd_toStartOf="@+id/divider3"
+        app:layout_constraintStart_toEndOf="@+id/divider9"
+        app:layout_constraintTop_toBottomOf="@+id/divider4" />
 
     <Button
         android:id="@+id/btn_news"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
@@ -40,48 +40,47 @@
         android:paddingTop="30dp"
         android:text="@string/news"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/divider7"
-        app:layout_constraintEnd_toStartOf="@+id/divider10"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider6" />
+        app:layout_constraintBottom_toTopOf="@+id/divider3"
+        app:layout_constraintEnd_toStartOf="@+id/divider12"
+        app:layout_constraintStart_toEndOf="@+id/divider3"
+        app:layout_constraintTop_toBottomOf="@+id/divider4" />
 
     <Button
         android:id="@+id/btn_moodle"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginBottom="5dp"
-        android:backgroundTint="#8003A9F4"
-        android:drawableTop="@drawable/ic_desktop_windows_24px"
-        android:drawableTint="#03A9F4"
-        android:paddingTop="15dp"
-        android:text="@string/moodle"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/divider8"
-        app:layout_constraintEnd_toStartOf="@+id/divider9"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider7" />
-
-    <Button
-        android:id="@+id/btn_ebos"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
+        android:backgroundTint="#8003A9F4"
+        android:drawableTop="@drawable/ic_desktop_windows_24px"
+        android:drawableTint="#03A9F4"
+        android:paddingTop="45dp"
+        android:text="@string/moodle"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/divider12"
+        app:layout_constraintEnd_toStartOf="@+id/divider13"
+        app:layout_constraintStart_toEndOf="@+id/divider12"
+        app:layout_constraintTop_toBottomOf="@+id/divider4" />
+
+    <Button
+        android:id="@+id/btn_ebos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
         android:backgroundTint="#803F51B5"
         android:drawableTop="@drawable/ic_format_bold_24px"
         android:drawableTint="#3F51B5"
-        android:paddingTop="15dp"
+        android:paddingTop="45dp"
         android:text="@string/ebos"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/divider8"
-        app:layout_constraintEnd_toStartOf="@+id/divider3"
-        app:layout_constraintStart_toEndOf="@+id/divider9"
-        app:layout_constraintTop_toBottomOf="@+id/divider7" />
+        app:layout_constraintBottom_toTopOf="@+id/divider12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/divider13"
+        app:layout_constraintTop_toBottomOf="@+id/divider4" />
 
     <Button
         android:id="@+id/btn_more"
@@ -94,31 +93,33 @@
         android:backgroundTint="#80FF9800"
         android:drawableTop="@drawable/ic_more_horiz_24px"
         android:drawableTint="#FF9800"
-        android:paddingTop="15dp"
+        android:paddingTop="45dp"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/divider5"
-        app:layout_constraintEnd_toStartOf="@+id/divider3"
-        app:layout_constraintStart_toEndOf="@+id/divider9"
-        app:layout_constraintTop_toBottomOf="@+id/divider8" />
+        app:layout_constraintEnd_toStartOf="@+id/divider12"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/divider11"
+        app:layout_constraintTop_toBottomOf="@+id/divider3"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/btn_council"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
         android:backgroundTint="#80505050"
         android:drawableTop="@drawable/ic_supervisor_account_24px"
         android:drawableTint="#505050"
-        android:paddingTop="15dp"
+        android:paddingTop="45dp"
         android:text="@string/council"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/divider5"
-        app:layout_constraintEnd_toStartOf="@+id/divider9"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider8" />
+        app:layout_constraintEnd_toStartOf="@+id/divider11"
+        app:layout_constraintStart_toEndOf="@+id/divider3"
+        app:layout_constraintTop_toBottomOf="@+id/divider3" />
 
     <Button
         android:id="@+id/btn_commute"
@@ -126,7 +127,7 @@
         android:layout_height="0dp"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="5dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
         android:backgroundTint="#80FFC107"
         android:drawableTop="@drawable/ic_commute_24px"
@@ -134,10 +135,11 @@
         android:paddingTop="30dp"
         android:text="@string/commute"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/divider7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/divider12"
-        app:layout_constraintTop_toBottomOf="@+id/divider6" />
+        app:layout_constraintBottom_toTopOf="@+id/divider5"
+        app:layout_constraintEnd_toStartOf="@+id/divider3"
+        app:layout_constraintStart_toEndOf="@+id/divider9"
+        app:layout_constraintTop_toBottomOf="@+id/divider3"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btn_contact"
@@ -155,8 +157,8 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/divider5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/divider3"
-        app:layout_constraintTop_toBottomOf="@+id/divider7" />
+        app:layout_constraintStart_toEndOf="@+id/divider12"
+        app:layout_constraintTop_toBottomOf="@+id/divider12" />
 
     <Button
         android:id="@+id/btn_myAcc"
@@ -169,11 +171,11 @@
         android:backgroundTint="#802196F3"
         android:drawableTop="@drawable/ic_perm_identity_24px"
         android:drawableTint="#2196F3"
-        android:paddingTop="15dp"
+        android:paddingTop="30dp"
         android:text="@string/myAcc"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/divider6"
-        app:layout_constraintEnd_toStartOf="@+id/divider3"
+        app:layout_constraintBottom_toTopOf="@+id/divider9"
+        app:layout_constraintEnd_toStartOf="@+id/divider9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider4" />
 
@@ -181,43 +183,20 @@
         android:id="@+id/btn_schedule"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginLeft="5dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
         android:backgroundTint="#808BC34A"
         android:drawableTop="@drawable/ic_calendar_today_24px"
         android:drawableTint="#8BC34A"
-        android:paddingTop="15dp"
+        android:paddingTop="30dp"
         android:text="@string/schedule"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/divider6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/divider3"
-        app:layout_constraintTop_toBottomOf="@+id/divider4" />
-
-    <View
-        android:id="@+id/divider7"
-        android:layout_width="1dp"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider"
-        android:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/divider5"
+        app:layout_constraintEnd_toStartOf="@+id/divider9"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65" />
-
-    <View
-        android:id="@+id/divider6"
-        android:layout_width="1dp"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4" />
+        app:layout_constraintTop_toBottomOf="@+id/divider9" />
 
     <View
         android:id="@+id/divider3"
@@ -225,10 +204,10 @@
         android:layout_height="1dp"
         android:background="?android:attr/listDivider"
         android:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/divider5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/divider4" />
 
     <View
         android:id="@+id/divider4"
@@ -251,18 +230,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.90" />
-
-    <View
-        android:id="@+id/divider8"
-        android:layout_width="1dp"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider"
-        android:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/divider5"
-        app:layout_constraintEnd_toStartOf="@+id/divider3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider7" />
+        app:layout_constraintVertical_bias="0.95" />
 
     <View
         android:id="@+id/divider9"
@@ -273,19 +241,7 @@
         app:layout_constraintBottom_toTopOf="@+id/divider5"
         app:layout_constraintEnd_toStartOf="@+id/divider3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider7" />
-
-    <View
-        android:id="@+id/divider10"
-        android:layout_width="1dp"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider"
-        android:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/divider7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.34"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider6" />
+        app:layout_constraintTop_toBottomOf="@+id/divider4" />
 
     <View
         android:id="@+id/divider12"
@@ -293,11 +249,11 @@
         android:layout_height="1dp"
         android:background="?android:attr/listDivider"
         android:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/divider7"
+        app:layout_constraintBottom_toTopOf="@+id/divider5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider6" />
+        app:layout_constraintTop_toBottomOf="@+id/divider4" />
 
     <ImageView
         android:id="@+id/logoUEP_home"
@@ -308,5 +264,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/uep_logo_trans" />
+
+    <View
+        android:id="@+id/divider11"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toTopOf="@+id/divider5"
+        app:layout_constraintEnd_toStartOf="@+id/divider12"
+        app:layout_constraintStart_toEndOf="@+id/divider3"
+        app:layout_constraintTop_toBottomOf="@+id/divider3" />
+
+    <View
+        android:id="@+id/divider13"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toTopOf="@+id/btn_contact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/divider12"
+        app:layout_constraintTop_toBottomOf="@+id/divider4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,4 +10,13 @@
     <string name="signupPassword">password</string>
     <string name="signupAge">age</string>
     <string name="signupSignupButton">Sign Up</string>
+    <string name="myAcc">My Account</string>
+    <string name="schedule">Schedule</string>
+    <string name="news">News</string>
+    <string name="floors">Floors</string>
+    <string name="commute">Commute</string>
+    <string name="moodle">Moodle</string>
+    <string name="ebos">EBOS</string>
+    <string name="contact">Contact</string>
+    <string name="council">PSUEP</string>
 </resources>
