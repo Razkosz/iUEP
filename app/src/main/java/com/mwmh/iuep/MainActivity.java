@@ -2,6 +2,7 @@ package com.mwmh.iuep;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -64,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 //on click activity
+                startActivity(new Intent(MainActivity.this, BuildingsActivity.class));
             }
         });
         mMoodleBtn = (Button) findViewById(R.id.btn_moodle);
