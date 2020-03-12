@@ -3,6 +3,7 @@ package com.mwmh.iuep;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -69,8 +70,11 @@ public class BuildingsActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                //Log.i("Buildings", "Building selected: " + buildings.get(position).getId());
+                Log.i("Buildings", "Building selected: " + buildings.get(position).getId());
                 //on click activity
+                Intent intent = new Intent(BuildingsActivity.this, FloorActivity.class);
+                intent.putExtra("BUILDING_ID", buildings.get(position).getId());
+                startActivity(intent);
             }
         });
         Log.i("Buildings", "List created");
